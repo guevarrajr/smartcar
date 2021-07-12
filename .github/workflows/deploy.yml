@@ -17,5 +17,5 @@ jobs:
              script: |
                 mkdir jungfolder  #name of directory you want to deploy in live server 
                 cd jungfolder #cd to the folder
-                git clone git@github.com:guevarrajr/smartcar/edit/main/.github #(to clone the repository to Digitalocean folder.)
+                git clone git@github.com:guevarrajr/smartcar/.github #(to clone the repository to Digitalocean folder.)
                 echo 'Deployment successful to Digital Ocean'  (this is a messge)
