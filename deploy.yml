@@ -16,6 +16,6 @@ jobs:
            script: |
              mkdir test #crete folder you want to deploy to in the live server
              cd test #enter or cd into the folder
-             git clone git@github.com:Mulubwa17/ci-cd-to-digitalocean-with-github-actions.git # clone the repository to folder
+             git clone git@github.com:guevarrajr/smartcar/.github # clone the repository to folder
              echo 'Deployment successful to digital ocean' #Message to be displayed when deployment is successful
      
