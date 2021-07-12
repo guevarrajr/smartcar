@@ -13,8 +13,7 @@ jobs:
           with:
              host: ${{secrets.SSH_HOST}} # IP address of digital ocean server
              key: ${{secrets.SSH_KEY}} private or public key from digitl ocean
-             username: ${{ secrets.SSH_USERNAME }} root user of digital ocean droplet  
-	     
+             username: ${{ secrets.SSH_USERNAME }} root user of digital ocean droplet  	     
              script: |
                 mkdir dirname #name of directory you want to deploy in live server 
                 cd dirname #cd to the folder
