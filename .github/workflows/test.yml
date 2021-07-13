@@ -17,5 +17,5 @@ jobs:
              script: |
                 mkdir jungfolder   
                 cd jungfolder 
-                git clone git@github.com:guevarrajr/smartcar 
+                git clone git@github.com:guevarrajr/smartcar.github
                 echo 'Deployment successful to Digital Ocean' 
