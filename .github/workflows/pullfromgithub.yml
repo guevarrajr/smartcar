@@ -11,4 +11,4 @@ jobs:
           host: ${{secrets.SSH_HOST}}
           key: ${{secrets.SSH_KEY}}
           username: ${{secrets.SSH_USERNAME}}
-          script: cd ~/smartcar/test && git pull git@github.com:guevarrajr/smartcar.git
+          script: cd ~/smartcar/ && git pull git@github.com:guevarrajr/smartcar.git
