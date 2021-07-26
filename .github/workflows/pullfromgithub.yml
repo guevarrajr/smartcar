@@ -1,0 +1,9 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Pull from GitHub
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{secrets.SSH_HOST}}
+          username: ${{secrets.SSH_KEY}}
+          password: ${{secrets.SSH_USERNAME}}
+          script: cd ~/smartcar/test && git pull git@github.com:guevarrajr/smartcar.git
