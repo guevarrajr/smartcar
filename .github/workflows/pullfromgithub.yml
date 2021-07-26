@@ -1,6 +1,11 @@
 # This is a basic workflow to help you get started with Actions
 
 name: Pull from GitHub
+jobs: 
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull from GitHub
         uses: appleboy/ssh-action@v0.1.2
         with:
           host: ${{secrets.SSH_HOST}}
